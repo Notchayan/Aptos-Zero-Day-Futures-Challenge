@@ -1,0 +1,19 @@
+.marquee-container {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 2px 0; /* Adjusted padding */
+    text-align: center;
+    font-size: 0.6rem;
+    font-family: var(--font-family);
+  }
+  
+  .coin {
+    display: inline-block;
+    margin-right: 0; /* Removed margin between coins */
+    padding-right: 20px; /* Added padding between coins */
+  }
+  
+  /* Add any additional styling as needed */

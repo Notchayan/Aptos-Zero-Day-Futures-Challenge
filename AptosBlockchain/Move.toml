@@ -1,0 +1,16 @@
+[package]
+name = "TOKEN5001"
+version = "1.0.0"
+authors = []
+
+[addresses]
+resource_account ='4141c1954708e9f30d5e9342bd223d7ba1681c9278774327b4f81e522015efbb'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]

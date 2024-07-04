@@ -1,0 +1,8 @@
+fastapi
+aptos-sdk
+"uvicorn[standard]"
+apscheduler
+numpy
+python-dotenv
+gunicorn==20.1.0
+uvicorn

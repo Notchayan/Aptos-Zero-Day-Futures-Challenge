@@ -1,0 +1,32 @@
+.popup-box{
+    position: fixed;
+    background: none;   
+    left: 0;
+    top: 20px;
+    width: 100%;
+    height: 200vh;
+
+}
+.box{
+    position: relative;
+    width: 50%;
+    min-height: 500px;
+    background-color: #1a1b1f;
+    border: 2px solid gray;
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 20px;
+    overflow: auto;
+}
+.btn-close{
+    position: relative;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    /* right: calc(30%-10px); */
+    left: 45%;
+    width: 30px;
+    height: 30px;
+    /* top:/20px; */
+    /* top: 5%; */
+}

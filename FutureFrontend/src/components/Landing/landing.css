@@ -1,0 +1,26 @@
+.landing{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    font-family: var(--font-family);
+    text-align: center;
+    gap: 1rem;
+}
+.landing-header{
+    font-size: 5rem;
+}
+.landing-para{
+    font-size: 1.8rem;
+}
+.landing_div{
+    padding: 1rem 1.4rem;
+    border-radius: 8px;
+    font-weight: 500;
+    background-color: #1d94f0;
+    cursor: pointer;
+}
+.landing img{
+    margin-top: 2rem;
+}

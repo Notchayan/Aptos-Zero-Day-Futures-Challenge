@@ -1,0 +1,122 @@
+{
+
+  "name": "nft-market",
+
+  "version": "0.1.0",
+
+  "private": true,
+
+  "dependencies": {
+
+    "@aptos-labs/wallet-adapter-ant-design": "^1.0.0",
+
+    "@aptos-labs/wallet-adapter-react": "^1.0.2",
+
+    "@emotion/react": "^11.11.1",
+
+    "@emotion/styled": "^11.11.0",
+
+    "@mui/material": "^5.14.20",
+
+    "@mui/styled-engine-sc": "^6.0.0-alpha.7",
+
+    "@testing-library/jest-dom": "^5.16.1",
+
+    "@testing-library/react": "^12.1.2",
+
+    "@testing-library/user-event": "^13.5.0",
+
+    "aptos": "^1.20.0",
+
+    "axios": "^0.25.0",
+
+    "chart.js": "^4.4.1",
+
+    "framer-motion": "^10.16.16",
+
+    "petra-plugin-wallet-adapter": "^0.3.0",
+
+    "rc-slider": "^10.5.0",
+
+    "react": "^18.2.0",
+
+    "react-apexcharts": "^1.4.1",
+
+    "react-chartjs-2": "^5.2.0",
+
+    "react-dom": "^18.2.0",
+
+    "react-fast-marquee": "^1.6.2",
+
+    "react-icons": "^4.12.0",
+
+    "react-router": "^6.2.1",
+
+    "react-router-dom": "^6.2.1",
+
+    "react-scripts": "5.0.0",
+
+    "react-slick": "^0.28.1",
+
+    "react-spinners": "^0.13.8",
+
+    "slick-carousel": "^1.8.1",
+
+    "styled-components": "^6.1.1",
+
+    "web-vitals": "^2.1.3"
+
+  },
+
+  "scripts": {
+
+    "start": "react-scripts start",
+
+    "build": "react-scripts build",
+
+    "test": "react-scripts test",
+
+    "eject": "react-scripts eject"
+
+  },
+
+  "eslintConfig": {
+
+    "extends": [
+
+      "react-app",
+
+      "react-app/jest"
+
+    ]
+
+  },
+
+  "browserslist": {
+
+    "production": [
+
+      ">0.2%",
+
+      "not dead",
+
+      "not op_mini all"
+
+    ],
+
+    "development": [
+
+      "last 1 chrome version",
+
+      "last 1 firefox version",
+
+      "last 1 safari version"
+
+    ]
+
+  },
+
+  "proxy": "http://localhost:5000/api/"
+
+}
+
