@@ -3,7 +3,7 @@
 https://drive.google.com/file/d/1yPkJHUe1RUzIBdrHkONERE9QeYbnUJCZ/view?usp=sharing
 
 
-![Alt text](<WhatsApp Image 2023-12-11 at 05.55.38_00f90646.jpg>)
+![Alt text](<1.jpg>)
 # Zero-Day Future Contracts
 
 This project aims to develop and deploy a decentralized futures trading platform on the Aptos blockchain. This platform focuses on offering seamless trading of short-term futures contracts expiring within 24 hours, with the potential to include longer-dated contracts in the future.
@@ -133,10 +133,10 @@ We present to you our future finance app that solves all the issues of Web2 and 
 Future wallet offers zero day futures for various tokens. Our solution uses Aptos quick transactions and computation power of move language.
 Without the need of a backend acting as a storage unit our solution eliminates the need for the main server. The computation and storage is carries out the contract itself, thus removes problems such as server downtime .
 
-![Alt text](<WhatsApp Image 2023-12-11 at 23.26.46_ea36e472.jpg>)
+![Alt text](<2.jpg>)
 
 ## Architectural Design
-![Alt text](<WhatsApp Image 2023-12-11 at 23.30.06_ccea2290.jpg>)
+![Alt text](<3.jpg>)
 
 ## Features and functionalities
 The user first needs to connect his wallet making sure he is connected to the DEVNET and has some APT from the faucet.
@@ -216,7 +216,7 @@ One of the key features that differentiates Zero day orders from rest of the fut
 
 After the orders are matched the user can opt to edit the expiry of contract, at the end of each day the orders price would be calculated using the profit and loss of the user at EOD and again placed with same quantity , this process is repeated till the time the contract does not expire while also checking for liquidation throughout the day.
 
-![Alt text](<WhatsApp Image 2023-12-11 at 23.27.56_bb16d813.jpg>)
+![Alt text](<4.jpg>)
 
 
 
@@ -230,7 +230,7 @@ The market price of the buy and sell orders going on for each individual token a
 ### Graphs
 All the data of the graph is sourced from `fastAPI calls` that provide the required data, as the data is sourced directly from the blockchain this is guaranteed to be free of manipulation. To prevent overloading of requests of data from contract the data is fetched using API calls that are evenly spaced. The data is `stored locally on the browser cache`. 
 
-![Alt text](<WhatsApp Image 2023-12-11 at 23.29.23_a5290076.jpg>)
+![Alt text](<5.jpg>)
 
 
 
